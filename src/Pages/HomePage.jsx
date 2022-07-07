@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 class HomePage extends Component {
   render() {
-    return <Link to="/profile">Go to Profile</Link>;
+    return <Link to="/login">Login</Link>;
   }
 }
 
 export default HomePage;
+ 
