@@ -1,9 +1,11 @@
 import { Component } from "react";
-import { Link } from "react-router-dom";
+import Navigation from '../components/Navigation';
 
 class HomePage extends Component {
   render() {
-    return <Link to="/login">Login</Link>;
+    return <>
+    <Navigation />
+    </>;
   }
 }
 
